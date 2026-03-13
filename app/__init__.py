@@ -1,0 +1,1 @@
+"""AutoLabelProMax application package."""

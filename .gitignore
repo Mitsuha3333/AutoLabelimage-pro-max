@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+*.egg
+
+# 模型文件（体积大，不提交）
+*.pth
+*.gguf
+*.bin
+*.onnx
+*.pt
+
+# segment-anything（通过 pip 安装，不提交源码）
+segment-anything/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 输出目录（用户生成的标注结果）
+output/
+intermediate/
+
+# Claude Code
+.claude/
+CLAUDE.md
+AGENTS.md
+TODO.md
+prd.md
