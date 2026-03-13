@@ -1,6 +1,6 @@
 <div align="center">
 
-# AutoLabelProMax
+# AutoLabelimage Pro Max
 
 **自动yolo目标检测标注工具 -- 用 AI 帮你画框，人工只需微调**
 
@@ -23,6 +23,8 @@ Qwen3-VL 粗标 + SAM 精修 + 人工修正 + YOLO 格式导出
 ```
 
 **这是一个目标检测标注工具**，不是分割标注工具。SAM 仅用于精修检测框边界，最终输出为标准 YOLO 检测格式。
+
+![界面截图](screenshots/picture.png)
 
 ## 功能特性
 
